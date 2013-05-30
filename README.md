@@ -4,4 +4,8 @@
 
     '<ht;ytd Ktjybl Bkmbx'.convert_keyboard({ from: 'ru', to: 'en'})
 
+    или
+
+    '<ht;ytd Ktjybl Bkmbx'.convert_keyboard({ from: 'ru', to: 'en'})    
+
     # Брежнев Леонид Ильич
