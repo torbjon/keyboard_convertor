@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.version     = '0.0.1'
   s.date        = '2013-05-30'
   s.summary     = 'KeyboardConvertor'
-  s.description = 'Convert from/to keyboard'
+  s.description = 'Converting from/to keyboard'
   s.authors     = ['Maksim Berjoza']
   s.email       = 'maksim.berjoza@gmail.com'
   s.files       = ['lib/keyboard_convertor.rb']
