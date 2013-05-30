@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'keyboard_convertor'
-  s.version     = '0.0.1'
+  s.version     = '0.1.0'
   s.date        = '2013-05-30'
   s.summary     = 'KeyboardConvertor'
   s.description = 'Converting from/to keyboard'
