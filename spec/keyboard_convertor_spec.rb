@@ -27,4 +27,8 @@ describe 'KeyboardConveror' do
     '"lefhl'.convert_keyboard({ from: 'ru', to: 'en' }).should eq('Эдуард')
   end
 
+  it 'should convert blank to blank' do
+    ''.convert_keyboard({ from: 'ru', to: 'en' }).should eq('')
+  end
+
 end
