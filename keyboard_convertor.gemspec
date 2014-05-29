@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'keyboard_convertor'
-  s.version     = '0.1.1'
-  s.date        = '2013-05-30'
+  s.version     = '0.2.1'
+  s.date        = '2014-05-26'
   s.summary     = 'KeyboardConvertor'
   s.description = 'Converting from/to keyboard'
   s.authors     = ['Maksim Berjoza']
