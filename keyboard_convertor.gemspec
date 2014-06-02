@@ -4,8 +4,9 @@ Gem::Specification.new do |s|
   s.date        = '2014-05-26'
   s.summary     = 'KeyboardConvertor'
   s.description = 'Converting from/to keyboard'
-  s.authors     = ['Maksim Berjoza']
+  s.authors     = ['Maksim Berjoza', 'Alexey Zhuravlev']
   s.email       = 'maksim.berjoza@gmail.com'
   s.files       = ['lib/keyboard_convertor.rb']
   s.homepage    = 'https://github.com/torbjon/keyboard_convertor'
+  s.license     = 'MIT'
 end
