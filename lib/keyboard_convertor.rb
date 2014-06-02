@@ -4,9 +4,8 @@ class String
   RU_LAYOUT = %q/ёЁ"№;:?йцукенгшщзхъфывапролджэячсмитьбю.ЙЦУКЕНГШЩЗХЪФЫВАПРОЛДЖЭ\/ЯЧСМИТЬБЮ,/
   EN_LAYOUT = %q/`~@#$^&qwertyuiop[]asdfghjkl;'zxcvbnm,.\/QWERTYUIOP{}ASDFGHJKL:"|ZXCVBNM<>?/
 
-
   def convert_keyboard(options = nil)
-    dir = is_ru_en(options)
+    dir = ru_en?(options)
 
     wrong_chars = dir ? RU_LAYOUT : EN_LAYOUT
     right_chars = dir ? EN_LAYOUT : RU_LAYOUT
@@ -17,7 +16,8 @@ class String
 
   private
 
-  def is_ru_en(options)
-    options && options[:from] == "ru" && options[:to] == "en"
+  def ru_en?(options)
+    options && options[:from] == 'ru' && options[:to] == 'en'
   end
+
 end
